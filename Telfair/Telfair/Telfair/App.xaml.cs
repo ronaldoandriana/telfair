@@ -14,7 +14,7 @@ namespace Telfair
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new MainPage();
+            MainPage = new Telfair.Views.Auth.Loginpage();
         }
 
         protected override void OnStart()
