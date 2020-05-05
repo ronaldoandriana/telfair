@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Telfair.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -14,7 +14,9 @@ namespace Telfair.Views.Auth
 	{
 		public RegistrationPage ()
 		{
-			InitializeComponent ();
-		}
+            var vm = new RegistrationViewModel();
+            this.BindingContext = vm;
+            InitializeComponent();
+        }
 	}
 }

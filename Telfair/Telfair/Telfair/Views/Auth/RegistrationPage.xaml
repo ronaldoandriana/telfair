@@ -4,7 +4,50 @@
              x:Class="Telfair.Views.Auth.RegistrationPage">
   <ContentView.Content>
       <StackLayout>
-          <Label Text="Hello Xamarin.Forms!" />
-      </StackLayout>
+            <BoxView HeightRequest="10"/>
+            <Frame BackgroundColor="#BF043055" HasShadow="False">
+                <StackLayout Orientation="Vertical" Spacing="10">
+                    
+                    <Entry x:Name="Name" Text="{Binding Name}" Placeholder="Name"   
+                           PlaceholderColor="White" HeightRequest="40"   
+                           Keyboard="Name"  
+                           TextColor="White"/>
+                    
+                    <Entry x:Name="Surname" Text="{Binding Surname}" Placeholder="Surname"   
+                           PlaceholderColor="White" HeightRequest="40"   
+                           Keyboard="Surname"  
+                           TextColor="White"/>
+                    
+                    <Entry x:Name="UserName" Text="{Binding UserName}" Placeholder="UserName"   
+                           PlaceholderColor="White" HeightRequest="40"   
+                           Keyboard="UserName"  
+                           TextColor="White"/>
+                    
+                    <Entry x:Name="NID" Text="{Binding NID}" Placeholder="NID"   
+                           PlaceholderColor="White" HeightRequest="40"   
+                           Keyboard="NID"  
+                           TextColor="White"/>
+                    
+                    <Entry x:Name="Email" Text="{Binding Email}" Placeholder="Email"   
+                           PlaceholderColor="White" HeightRequest="40"   
+                           Keyboard="Email"  
+                           TextColor="White"/>
+                    
+                    <Entry x:Name="Password" Text="{Binding Password}" Placeholder="Password"   
+                           PlaceholderColor="White" HeightRequest="40"   
+                           IsPassword="True"  
+                           TextColor="White"/>
+                    
+                    <Entry x:Name="ConfirmPassword" Text="{Binding Password}" Placeholder="Confirm Password"   
+                           PlaceholderColor="White" HeightRequest="40"   
+                           TextColor="White"/>
+                    
+                </StackLayout>
+            </Frame>
+            <Button Command="{Binding SubmitCommand}" Text="Login" TextColor="White"  
+                    FontAttributes="Bold" FontSize="Large" HorizontalOptions="FillAndExpand"  
+                    BackgroundColor="#088da5" />
+        
+        </StackLayout>
   </ContentView.Content>
 </ContentView>
