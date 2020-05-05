@@ -1934,26 +1934,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ronaldo\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Emmanuel\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\SAIM\\TELFAIR\\Telfair_mobile\\Telfair\\Telfair\\Telfair.Android\\Telfair.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Emmanuel\\source\\repos\\ronaldoandriana\\telfair\\Telfair\\Telfair\\Telfair.Android\\Telfair.Android.csproj",
       "projectName": "Telfair.Android",
-      "projectPath": "C:\\SAIM\\TELFAIR\\Telfair_mobile\\Telfair\\Telfair\\Telfair.Android\\Telfair.Android.csproj",
-      "packagesPath": "C:\\Users\\Ronaldo\\.nuget\\packages\\",
-      "outputPath": "C:\\SAIM\\TELFAIR\\Telfair_mobile\\Telfair\\Telfair\\Telfair.Android\\obj\\",
+      "projectPath": "C:\\Users\\Emmanuel\\source\\repos\\ronaldoandriana\\telfair\\Telfair\\Telfair\\Telfair.Android\\Telfair.Android.csproj",
+      "packagesPath": "C:\\Users\\Emmanuel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Emmanuel\\source\\repos\\ronaldoandriana\\telfair\\Telfair\\Telfair\\Telfair.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Ronaldo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Emmanuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "monoandroid90"
@@ -1965,8 +1960,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\SAIM\\TELFAIR\\Telfair_mobile\\Telfair\\Telfair\\Telfair\\Telfair.csproj": {
-              "projectPath": "C:\\SAIM\\TELFAIR\\Telfair_mobile\\Telfair\\Telfair\\Telfair\\Telfair.csproj"
+            "C:\\Users\\Emmanuel\\source\\repos\\ronaldoandriana\\telfair\\Telfair\\Telfair\\Telfair\\Telfair.csproj": {
+              "projectPath": "C:\\Users\\Emmanuel\\source\\repos\\ronaldoandriana\\telfair\\Telfair\\Telfair\\Telfair\\Telfair.csproj"
             }
           }
         }

@@ -3,23 +3,35 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Telfair.Views.Auth.LoginPage">
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical" Padding="30" Spacing="40">
-            <BoxView HeightRequest="10"/>
-            <Frame BackgroundColor="#BF043055" HasShadow="False">
-                <StackLayout Orientation="Vertical" Spacing="10">
-                    <Entry x:Name="Email" Text="{Binding Email}" Placeholder="Email"   
+        <RelativeLayout>
+
+            <Image Source="C:\Users\Emmanuel\source\repos\ronaldoandriana\telfair\Telfair\Telfair\Telfair\Images\blurs.jpg" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width}"
+                   RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height}"/>
+            <Grid RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width}"
+                  RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height}">
+
+                
+                <StackLayout Orientation="Vertical" Padding="30" Spacing="40">
+
+                    <BoxView HeightRequest="10"/>
+                    <Frame BackgroundColor="#BF043055" HasShadow="False">
+                        <StackLayout Orientation="Vertical" Spacing="10">
+                            <Entry x:Name="Email" Text="{Binding Email}" Placeholder="Email"   
                            PlaceholderColor="White" HeightRequest="40"   
                            Keyboard="Email"  
                            TextColor="White"/>
-                    <Entry x:Name="Password" Text="{Binding Password}" Placeholder="Senha"   
+                            <Entry x:Name="Password" Text="{Binding Password}" Placeholder="Password"   
                            PlaceholderColor="White" HeightRequest="40"   
                            IsPassword="True"  
                            TextColor="White"/>
-                </StackLayout>
-            </Frame>
-            <Button Command="{Binding SubmitCommand}" Text="Login" TextColor="White"  
+                        </StackLayout>
+                    </Frame>
+                    <Button Command="{Binding SubmitCommand}" Text="Login" TextColor="White"  
                     FontAttributes="Bold" FontSize="Large" HorizontalOptions="FillAndExpand"  
                     BackgroundColor="#088da5" />
-        </StackLayout>
+                </StackLayout>
+            </Grid>
+
+        </RelativeLayout>
     </ContentPage.Content>
 </ContentPage>

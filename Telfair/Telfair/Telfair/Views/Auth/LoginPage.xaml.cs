@@ -15,6 +15,8 @@ namespace Telfair.Views.Auth
     {
         public LoginPage()
         {
+           
+
             var vm = new LoginViewModel();
             this.BindingContext = vm;
             vm.DisplayInvalidLoginPrompt += () => DisplayAlert("Error", "Invalid Login, try again", "OK");
