@@ -5,12 +5,13 @@
     <ContentPage.Content>
         <RelativeLayout>
 
-            <Image Source="C:\Users\Emmanuel\source\repos\ronaldoandriana\telfair\Telfair\Telfair\Telfair\Images\blurs.jpg" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width}"
-                   RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height}"/>
+            <!--<Image Source="C:\Users\Emmanuel\source\repos\ronaldoandriana\telfair\Telfair\Telfair\Telfair\Images\blurs.jpg" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width}"
+                   RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height}"/>-->
             <Grid RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width}"
                   RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height}">
 
-                
+                <Image Source="C:\Users\Emmanuel\source\repos\ronaldoandriana\telfair\Telfair\Telfair\Telfair\Images\blurs.png" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width}"
+                   RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height}"/>
                 <StackLayout Orientation="Vertical" Padding="30" Spacing="40">
 
                     <BoxView HeightRequest="10"/>
